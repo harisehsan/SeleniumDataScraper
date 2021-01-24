@@ -1,5 +1,5 @@
 /*
- * @author Naveen Khunteta
+ * @author Haris Ehsan
  * 
  */
 
@@ -79,7 +79,7 @@ public class AmazonDataCollect extends TestBase{
 	}
 	
 	@Test(priority=1)
-	public void verifyContactsPageLabel() throws FileNotFoundException, InterruptedException {
+	public void dataCollector() throws FileNotFoundException, InterruptedException {
         loginPage.signInToAmazon();
         TShirtsPage.getShirtsdata();
 //        beltsPage.getBeltsdata();
