@@ -18,6 +18,7 @@
         </plugins>
     </build>
     <packaging>jar</packaging>
+    <packaging>war</packaging>
 
 	<name>FreeCRMTest</name>
 	<url>http://maven.apache.org</url>
